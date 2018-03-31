@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-family: Arial;
+    color: white;
+    background-color: #378DEC;
+
+}
+
+a, a:hover, a:visited, a:link, a:active
+{
+    text-decoration: inherit;
+}
+
+
+#PageLogo {
+    font-family: "Times New Roman";
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+
+#PageLogo h1{
+    color: red;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.navbar {
+    text-align: center;
+}
+
+
+
