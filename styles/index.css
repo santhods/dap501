@@ -30,10 +30,15 @@ a, a:hover, a:visited, a:link, a:active
     font-weight: bold;
 }
 
-.wrapper { 
+#wrapper { 
     min-height: 100%;
+    position: relative;
 }
 
+/* only a pixel value can apply to push the footer down */
+#main{
+    padding-bottom: 50px;
+}
 
 #footer {
     position: absolute;
@@ -42,12 +47,12 @@ a, a:hover, a:visited, a:link, a:active
     height: 60px;
     text-align: center;
     font: inherit;
-
+    padding-top: 1rem;
 }
 
 
 .main-content {
-    background-color: white;
+    background-color: #DDDDDD;
     
 }
 
