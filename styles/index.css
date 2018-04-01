@@ -59,3 +59,15 @@ a, a:hover, a:visited, a:link, a:active
         color: #378DEC;
         text-align: center;
 }
+
+.page-bodytext {
+    font-family: inherit;
+    color: black;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
+
+blockquote {
+    color: black;
+}
