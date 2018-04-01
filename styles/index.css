@@ -30,9 +30,8 @@ a, a:hover, a:visited, a:link, a:active
     font-weight: bold;
 }
 
-#wrapper {
+.wrapper {
     min-height: 100%;
-    position: relative;
 }
 
 .navbar {
@@ -40,4 +39,17 @@ a, a:hover, a:visited, a:link, a:active
 }
 
 
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font: inherit;
 
+    /*
+
+    background-color: #ffffff;
+    color: #6666ff;
+    */
+}

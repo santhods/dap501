@@ -3,11 +3,11 @@
         <div class="col-md-12">
 	     <div class="navbar navbar-default">
 	        <div class="navbar-header">
-                
-                
-                <?php 
-                // <a class="navbar-brand visible-xs-*" href="index.php"><?php echo "Testemp" </a>
-                ?>
+	            
+            <a href="/index.php">
+                <span class="navbar-brand glyphicon glyphicon-home visible-xs"></span>
+            </a>
+
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navibar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -19,12 +19,12 @@
 			<div id="navibar" class="collapse navbar-collapse">
            	    <ul class="nav navbar-nav" style="color:green">
                     <li><a href="/controllers/"><?php echo "Instrumentation";//echo $WEB_VALUE['billsTitle']; ?></a></li>
-                    <li><a href="<?php //echo $_LNK['siteSectionDebates']; ?>"><?php echo "Thermowell, Fittings and Transmitters";//echo $WEB_VALUE['debatesTitle']; ?></a></li>
-	       		    <li><a href="<?php //echo $_LNK['siteSectionVotes']; ?>"><?php echo "Cable";//echo $WEB_VALUE['votesTitle']; ?></a></li>
-	       		    <li><a href="<?php //echo $_LNK['siteSectionVotes']; ?>"><?php echo "Sensors";//echo $WEB_VALUE['votesTitle']; ?></a></li>
-                    <li><a href="<?php //echo $_LNK['siteSectionMembers']; ?>"><?php echo "Connectors";//echo $WEB_VALUE['membersTitle']; ?></a></li>
-                    <li><a href="<?php //echo $_LNK['siteSectionCommittees']; ?>"><?php echo "Knowledge Base";//echo $WEB_VALUE['committeesTitle']; ?></a></li>           
-                    <li><a href="<?php //echo $_LNK['siteSectionCommittees']; ?>"><?php echo "About Testemp";//echo $WEB_VALUE['committeesTitle']; ?></a></li>           
+                    <li><a href="/thermowells/"><?php echo "Thermowells, Fittings and Transmitters";//echo $WEB_VALUE['debatesTitle']; ?></a></li>
+	       		    <li><a href="/cable/"><?php echo "Cable";//echo $WEB_VALUE['votesTitle']; ?></a></li>
+	       		    <li><a href="/sensors/"><?php echo "Sensors";//echo $WEB_VALUE['votesTitle']; ?></a></li>
+                    <li><a href="/connectors/"><?php echo "Connectors";//echo $WEB_VALUE['membersTitle']; ?></a></li>
+                    <li><a href="/knowledge/"><?php echo "Knowledge Base";//echo $WEB_VALUE['committeesTitle']; ?></a></li>           
+                    <li><a href="/about/"><?php echo "About Testemp";//echo $WEB_VALUE['committeesTitle']; ?></a></li>           
                 </ul>
                
                

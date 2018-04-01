@@ -1,7 +1,8 @@
 <?php
     $SiteTitle = "Temperature Sensor and Instrumentation Manufacturer";
+    $root = "/home/ubuntu/workspace/";
     
-    include("parts/PageHeader.php");
+    include($root . "parts/PageHeader.php");
 ?>
 
 
@@ -17,5 +18,5 @@
     
     //echo "<h3>How are you today</h3>";
     
-    include("parts/PageFooter.php");
+    include($root . "parts/PageFooter.php");
 ?>

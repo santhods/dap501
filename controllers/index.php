@@ -1,9 +1,9 @@
 <?php
     $SiteTitle = "Controllers";
-    echo $_SERVER['DOCUMENT_ROOT'];
-
+    $root = "/home/ubuntu/workspace/";
     
-   include($_SERVER['DOCUMENT_ROOT'] . "/parts/PageHeader.php");
+    
+   include($root . "parts/PageHeader.php");
 ?>
 
 
@@ -16,9 +16,5 @@
 
 
 <?php
-    // echo "<h1>Hello There</h1>";
-    
-    //echo "<h3>How are you today</h3>";
-    
-   include($_SERVER['DOCUMENT_ROOT'] . "/parts/PageFooter.php");
+   include($root . "parts/PageFooter.php");
 ?>

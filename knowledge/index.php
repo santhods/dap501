@@ -1,16 +1,15 @@
 <?php
-    $SiteTitle = "Cable and Sensors";
+    $SiteTitle = "Knowledge Base";
     $root = "/home/ubuntu/workspace/";
     
     // include($_SERVER['DOCUMENT_ROOT'] . "/init.php");
 
 
     include($root . "parts/PageHeader.php");
-?>
+    ?>
 
 
 
-    
 <?php 
     
     include($root . "parts/PageFooter.php");
