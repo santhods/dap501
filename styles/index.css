@@ -4,8 +4,8 @@ html, body {
 }
 
 body {
-    font-family: Arial;
-    color: white;
+    font-family:  -apple-system,system-ui,BlinkMacSystemFont,Arial;
+    color: #000000;
     background-color: #378DEC;
 
 }
@@ -17,7 +17,7 @@ a, a:hover, a:visited, a:link, a:active
 
 
 #PageLogo {
-    font-family: "Times New Roman";
+    font-family: "Georgia";
     background-color: white;
     margin-bottom: 0.5rem;
 }
@@ -47,6 +47,7 @@ a, a:hover, a:visited, a:link, a:active
     height: 60px;
     text-align: center;
     font: inherit;
+    color: #ffffff;
     padding-top: 1rem;
 }
 
@@ -58,11 +59,22 @@ a, a:hover, a:visited, a:link, a:active
 
 
 .page-headline {
-        font-family: Inherit;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #378DEC;
-        text-align: center;
+    font-family: Inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #378DEC;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+
+.page-subheader3 {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    color: inherit;
+    text-align: center;
+    
 }
 
 .page-bodytext {
@@ -73,6 +85,21 @@ a, a:hover, a:visited, a:link, a:active
 }
 
 
+
+.jumbotron {
+    margin-top: 1rem;
+}
+
 blockquote {
     color: black;
+}
+
+
+.card {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.thumbnail-row {
+    margin-bottom: 2rem;
 }
