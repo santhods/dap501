@@ -16,6 +16,11 @@ a, a:hover, a:visited, a:link, a:active
 }
 
 
+.navbar{
+    text-align: center;
+}
+
+
 #PageLogo {
     font-family: "Georgia";
     background-color: white;
