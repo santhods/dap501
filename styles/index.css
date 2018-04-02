@@ -15,12 +15,6 @@ a, a:hover, a:visited, a:link, a:active
     text-decoration: inherit;
 }
 
-
-.navbar{
-    text-align: center;
-}
-
-
 #PageLogo {
     font-family: "Georgia";
     background-color: white;
@@ -33,6 +27,7 @@ a, a:hover, a:visited, a:link, a:active
     text-align: center;
     font-size: 300%;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #wrapper { 
@@ -59,7 +54,7 @@ a, a:hover, a:visited, a:link, a:active
 
 .main-content {
     background-color: #DDDDDD;
-    
+    padding-bottom: 1.5rem;
 }
 
 
@@ -69,7 +64,7 @@ a, a:hover, a:visited, a:link, a:active
     font-weight: bold;
     color: #378DEC;
     text-align: center;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -90,6 +85,18 @@ a, a:hover, a:visited, a:link, a:active
 }
 
 
+.page-productheader {
+    font-family: inherit;
+    color: #000000;
+    font-size: 1.25rem;
+}
+
+
+.page-bodyheader {
+    font-weight: bold;
+}
+
+
 
 .jumbotron {
     margin-top: 1rem;
@@ -103,6 +110,7 @@ blockquote {
 .card {
     margin: 0 auto;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .thumbnail-row {
